@@ -6,6 +6,7 @@ interface Project {
   personId: string;
   pin: boolean;
   organization: string;
+  token: string
 }
 interface ListProps {
   users: User[];
